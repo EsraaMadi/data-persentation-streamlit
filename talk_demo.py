@@ -100,7 +100,7 @@ elif st.session_state.steps == 2:
 
     # run button
     if st.button(":running:"):
-        file_path = 'sdata/Restaurant_Reviews.xlsx'
+        file_path = 'data/Restaurant_Reviews.xlsx'
         data = pd.read_excel(file_path)
         st.dataframe(data[['Review']].head(5))
 
