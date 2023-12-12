@@ -1,3 +1,3 @@
-# Presentation Demo for Text Category Classifier as Streamlit App
+# Presentation for Text Classification Pipeline as Streamlit App
 
-This repository contains the Streamlit app for the "Text Category Classifier" that was presented at the PyData Lightning Talk session.
+This repository contains my presentation slides as Streamlit app for "Text Classification Pipeline" that was presented at PyData Lightning Talk session.
