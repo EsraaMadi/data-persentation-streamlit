@@ -152,7 +152,7 @@ elif st.session_state.steps == 3:
         st.dataframe(topics[['Topic', 'Count', 'Name', 'Representation']])
 
         # show vis
-        HtmlFile = open("../Fewshot-text-classification/identify_categories/iframe_figures/figure_8.html", 'r', encoding='utf-8')
+        HtmlFile = open("data/figure_8.html", 'r', encoding='utf-8')
         source_code = HtmlFile.read() 
         components.html(source_code, height=1000, width=800)
 
