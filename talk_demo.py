@@ -280,7 +280,7 @@ elif st.session_state.steps == 5:
 
     #run button
     if st.button(":running:"):
-        HtmlFile = open("data/fig2.html", 'r', encoding='utf-8')
+        HtmlFile = open("data/fig.html", 'r', encoding='utf-8')
         source_code = HtmlFile.read() 
         components.html(source_code, height=1000, width=800)
 
